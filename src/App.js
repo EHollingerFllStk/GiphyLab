@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import Gifs from "./components/Gifs"
+import Button from "./components/Button"
 import './App.css';
 
-function App() {
+
+import default function App(){
+
+
+const [gifs, setGif] = React.useState(ull)
+
+const handleSubmit = async
+const getGif = async (searchTerm) => {
+  const response = await fetch(
+    ``
+  )
+
+}
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Gifs/>
+        <Button handleSubmit/>
     </div>
   );
 }
