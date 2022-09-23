@@ -1,11 +1,11 @@
 import React from "react";
 
-const GiphyCall = (props) => {
+const Nav = (props) => {
   //The component must return some JSX
-  return <h1>Giphycall</h1>;
+  return <h1>Nav</h1>;
 };
 
 // We must export the component to use it in other files
 
-export default GiphyCall
+export default Nav
 

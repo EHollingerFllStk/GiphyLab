@@ -1,23 +1,22 @@
-import React from "react";
+import React from 'react';
+
 
 const Button = (props) => {
-  //The component must return some JSX
-  return <h1>The ButtonComponent</h1>;
-};
+  console.log(props)
 
+  const handleSubmit = () => {
+    props.getUrl()
+  }
 
-
-
-
-
-
-return (
+  return (
     <div>
-        <form>
-        <input type="text" />
-        <input type="submit" value="submit" />
-        </form>
+      <button onClick={handleSubmit}>
+        
+          Click Me for a Giphy
+      
+        </button>
     </div>
-);
+  );
+};
 
 export default Button
